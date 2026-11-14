@@ -12,7 +12,7 @@ allowed-tools:
 agent_created: true
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   rule_version: "1.0"
   language: zh-CN
 ---
@@ -161,6 +161,8 @@ python scripts/render_report.py analysis.json       # 输出单页 HTML
 | `references/report-spec.md` | 写 `analysis.json` 前必读（字段与版式） |
 | `references/evidence.md` | 判证据、写不确定性时 |
 | `references/review.md` | 学生提异议、教师复核时 |
-| `references/theory.md` | 教师问「凭什么这么判」时；不要用它替代判定 |
+| `references/model-rationale.md` | 模型构思方案：每组规则为什么这样设计、依据哪条文献 |
+| `references/theory.md` | 只要规则与文献的对照速查时 |
+| `assets/student-notice.md` | 布置作业前发给学生 |
 
 判定规则的每条依据都指向具体文献；但**分层有据不等于赋值有据**——七档百分比、四项门槛的位置是方案的经验赋值，文献只支持分层与排序。教师追问时如实说明这一点。

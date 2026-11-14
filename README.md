@@ -64,7 +64,8 @@ python scripts/render_report.py analysis.json
 │   ├── report-spec.md        # 报告版式 + analysis.json 字段
 │   ├── evidence.md           # 证据层级、最低证据、四类不确定性
 │   ├── review.md             # 争议、复核、使用边界、信度报告
-│   └── theory.md             # 规则与文献对应（APA 7）
+│   ├── model-rationale.md    # 贡献界定模型的构思方案（每条理论配文献）
+│   └── theory.md             # 规则与文献对应速查（APA 7）
 ├── scripts/
 │   ├── rules.py              # 七档权重、六环节、四级、四门槛
 │   ├── compute_attribution.py
@@ -111,7 +112,7 @@ python scripts/render_report.py analysis.json
 
 ## 引用
 
-规则的理论依据见 [`references/theory.md`](references/theory.md)，含 24 条 APA 第 7 版参考文献。核心几条：
+完整的模型构思方案见 [`references/model-rationale.md`](references/model-rationale.md)——每组规则为什么这样设计、依据哪条文献、支撑强度如何，逐条列出。规则与文献的对照速查见 [`references/theory.md`](references/theory.md)，含 24 条 APA 第 7 版参考文献。核心几条：
 
 - Chi, M. T. H., & Wylie, R. (2014). The ICAP framework. *Educational Psychologist*, 49(4), 219–243.
 - Faigley, L., & Witte, S. (1981). Analyzing revision. *College Composition and Communication*, 32(4), 400–414.
