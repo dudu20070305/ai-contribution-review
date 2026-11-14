@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "rule_version": "1.0",
+  "meta": {
+    "student_label": "学生A",
+    "assignment_title": "My Winter Holiday",
+    "date": "2026-11-20",
+    "session_id": "sess-20261120-0001",
+    "target_language": "英语",
+    "teaching_objective": "初二英语记叙文写作，含目标语产出",
+    "target_language_production_is_objective": true,
+    "task_type": "写作",
+    "model": "未记录",
+    "record_completeness": "complete",
+    "review_status": "preliminary",
+    "report_mode": "assessed"
+  },
+  "attribution": {
+    "paragraphs": [
+      {
+        "id": 1,
+        "chars": 42,
+        "tier": 5,
+        "traceable": true,
+        "source_turn": 2,
+        "evidence": "学生第 1 轮：Write about my trip to my grandma's last winter"
+      },
+      {
+        "id": 2,
+        "chars": 38,
+        "tier": 5,
+        "traceable": true,
+        "source_turn": 2,
+        "evidence": "学生第 1 轮：第三段写和她一起包饺子"
+      },
+      {
+        "id": 3,
+        "chars": 45,
+        "tier": 5,
+        "traceable": true,
+        "source_turn": 4,
+        "evidence": "学生第 3 轮：把 wonderful 改成 quiet"
+      },
+      {
+        "id": 4,
+        "chars": 62,
+        "tier": null,
+        "traceable": false,
+        "source_turn": null,
+        "evidence": "结语段，对话中无对应 AI 输出"
+      }
+    ],
+    "computed": {
+      "traceable_chars": 125,
+      "unknown_chars": 62,
+      "unknown_paragraphs": 1,
+      "buckets": {
+        "ai_direct": {
+          "chars": 0,
+          "pct": 0.0
+        },
+        "student_revised": {
+          "chars": 125,
+          "pct": 100.0
+        },
+        "student_original": {
+          "chars": 0,
+          "pct": 0.0
+        }
+      },
+      "weighted_rate": 45.0,
+      "coverage_pct": 66.8
+    }
+  },
+  "stages": [
+    {
+      "id": "E1",
+      "engaged": true,
+      "initial_grade": "C",
+      "final_grade": "C",
+      "evidence_type": "来源可溯",
+      "quote": "Write about my trip to my grandma's last winter. The third paragraph should be about making dumplings with her. Don't use the word \"delicious\", it's too simple.",
+      "turn": 1,
+      "downgrade_reason": null,
+      "note": "自行设定主题、段落安排与用词禁忌"
+    },
+    {
+      "id": "E2",
+      "engaged": true,
+      "initial_grade": "C",
+      "final_grade": "C",
+      "evidence_type": "来源可溯",
+      "quote": "那天早上很安静，不兴奋（quiet morning, not exciting）",
+      "turn": 3,
+      "downgrade_reason": null,
+      "note": "奶奶家、包饺子、安静的早晨，均非题目可推知"
+    },
+    {
+      "id": "E3",
+      "engaged": true,
+      "initial_grade": "A",
+      "final_grade": "A",
+      "evidence_type": null,
+      "quote": "The second one",
+      "turn": 3,
+      "downgrade_reason": null,
+      "note": "只在 AI 给出的三版中选一，未新增结构方案"
+    },
+    {
+      "id": "E4",
+      "engaged": true,
+      "initial_grade": "I",
+      "final_grade": "I",
+      "evidence_type": "理由可述",
+      "quote": "But \"we was\" is wrong, it should be \"we were\". Fix it.",
+      "turn": 5,
+      "downgrade_reason": null,
+      "note": "指出具体语法错误并给出正确形式"
+    },
+    {
+      "id": "E5",
+      "engaged": true,
+      "initial_grade": "A",
+      "final_grade": "A",
+      "evidence_type": null,
+      "quote": "The second one, but change \"wonderful\" to \"quiet\"",
+      "turn": 3,
+      "downgrade_reason": null,
+      "note": "明确选定版本并说明理由"
+    },
+    {
+      "id": "E6",
+      "engaged": false,
+      "initial_grade": null,
+      "final_grade": "未涉及",
+      "evidence_type": null,
+      "quote": "",
+      "turn": null,
+      "downgrade_reason": null,
+      "note": "检索全部 6 轮，无对自身理解或策略的表述"
+    }
+  ],
+  "gates": [
+    {
+      "id": "K1",
+      "met": true,
+      "basis": "E4 指出 \"we was\" 应为 \"we were\"，属具体错误且给出正确形式",
+      "search_scope": "全部 6 轮"
+    },
+    {
+      "id": "K2",
+      "met": true,
+      "basis": "奶奶家、包饺子、安静的早晨三处信息无法从题目推知",
+      "search_scope": "全部 6 轮"
+    },
+    {
+      "id": "K3",
+      "met": true,
+      "basis": "在三个版本中选定第二版，并说明「那天早上很安静」",
+      "search_scope": "全部 6 轮"
+    },
+    {
+      "id": "K4",
+      "met": false,
+      "basis": "无对自身理解、策略或进度的表述",
+      "search_scope": "全部 6 轮"
+    }
+  ],
+  "longitudinal": {
+    "available": false,
+    "baseline": "",
+    "items": []
+  },
+  "conclusion": "AI 承担了语言组织，学生承担了内容设定、一次语法纠错与版本选择；未出现对自身学习状态的判断。",
+  "uncertainty": {
+    "traceability": "第 4 段（结语，62 字）无法匹配到 AI 输出，已移出分母，可溯源覆盖 67%。",
+    "judgement": "E3 与 E5 均为给定版本内的选择，按证据从低判 A；若有结构或取舍理由可上调至 C。",
+    "input_completeness": "记录完整，6 轮，无时间戳。",
+    "review": "初步判定，未经教师复核。"
+  },
+  "supplementary": [],
+  "disputes": []
+}
