@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "rule_version": "1.0",
+  "meta": {
+    "student_label": "学生D",
+    "assignment_title": "校园垃圾分类倡议（校刊投稿）",
+    "date": "2026-11-20",
+    "session_id": "sess-20261120-0004",
+    "target_language": "英语",
+    "teaching_objective": "高一英语说明文写作，含目标语产出",
+    "target_language_production_is_objective": true,
+    "task_type": "写作",
+    "model": "未记录",
+    "record_completeness": "complete",
+    "review_status": "reviewed",
+    "report_mode": "assessed"
+  },
+  "attribution": {
+    "paragraphs": [
+      {
+        "id": 1,
+        "chars": 60,
+        "tier": 1,
+        "traceable": true,
+        "source_turn": 4,
+        "evidence": "AI 第 2 轮生成的开头，学生未改"
+      },
+      {
+        "id": 2,
+        "chars": 55,
+        "tier": 2,
+        "traceable": true,
+        "source_turn": 6,
+        "evidence": "学生第 5 轮：正式一点，别用口语"
+      },
+      {
+        "id": 3,
+        "chars": 70,
+        "tier": 3,
+        "traceable": true,
+        "source_turn": 8,
+        "evidence": "学生第 7 轮（中文）：写我们学校上周换成四色桶，蓝色装可回收"
+      },
+      {
+        "id": 4,
+        "chars": 45,
+        "tier": 6,
+        "traceable": true,
+        "source_turn": 10,
+        "evidence": "学生第 9 轮自行重写结尾段"
+      },
+      {
+        "id": 5,
+        "chars": 30,
+        "tier": 7,
+        "traceable": true,
+        "source_turn": null,
+        "evidence": "标点与署名行，AI 未参与"
+      },
+      {
+        "id": 6,
+        "chars": 40,
+        "tier": null,
+        "traceable": false,
+        "source_turn": null,
+        "evidence": "插入的数据表说明，来源在对话外"
+      }
+    ],
+    "computed": {
+      "traceable_chars": 260,
+      "unknown_chars": 40,
+      "unknown_paragraphs": 1,
+      "buckets": {
+        "ai_direct": {
+          "chars": 115,
+          "pct": 44.2
+        },
+        "student_revised": {
+          "chars": 115,
+          "pct": 44.2
+        },
+        "student_original": {
+          "chars": 30,
+          "pct": 11.5
+        }
+      },
+      "weighted_rate": 34.2,
+      "coverage_pct": 86.7
+    }
+  },
+  "stages": [
+    {
+      "id": "E1",
+      "engaged": true,
+      "initial_grade": "C",
+      "final_grade": "C",
+      "evidence_type": "来源可溯",
+      "quote": "给校刊写一篇校园垃圾分类的短文，三百词以内，读者是同学",
+      "turn": 1,
+      "downgrade_reason": null,
+      "note": "自行设定文体、篇幅与读者对象"
+    },
+    {
+      "id": "E2",
+      "engaged": true,
+      "initial_grade": "C",
+      "final_grade": "C",
+      "evidence_type": "来源可溯",
+      "quote": "我们学校上周把垃圾桶换成四色，蓝色装可回收，食堂门口那组总是混",
+      "turn": 7,
+      "downgrade_reason": null,
+      "note": "校内具体观察，AI 不可能推知"
+    },
+    {
+      "id": "E3",
+      "engaged": true,
+      "initial_grade": "A",
+      "final_grade": "A",
+      "evidence_type": null,
+      "quote": "第二版的分段可以，就按问题—做法—号召写",
+      "turn": 5,
+      "downgrade_reason": null,
+      "note": "在 AI 给出的两个结构方案中选一"
+    },
+    {
+      "id": "E4",
+      "engaged": true,
+      "initial_grade": "I",
+      "final_grade": "C",
+      "evidence_type": null,
+      "missing_evidence": "理由可述",
+      "quote": "这段不对，换掉",
+      "turn": 11,
+      "downgrade_reason": "只说「不对」，未说明错在哪，也未指出应改成什么",
+      "note": "否定动作成立，但缺判断依据"
+    },
+    {
+      "id": "E5",
+      "engaged": true,
+      "initial_grade": "A",
+      "final_grade": "存疑",
+      "evidence_type": null,
+      "quote": "第一版更稳，但我担心同学看不下去",
+      "turn": 12,
+      "downgrade_reason": null,
+      "note": "读法一：仅在两个版本间表达偏好，属 A；读法二：给出了以读者为标准的取舍理由，属 C。证据不足以判定，标存疑。"
+    },
+    {
+      "id": "E6",
+      "engaged": true,
+      "initial_grade": "C",
+      "final_grade": "C",
+      "evidence_type": "理由可述",
+      "quote": "我先写中文提纲再让 AI 翻，这样不容易漏点",
+      "turn": 3,
+      "downgrade_reason": null,
+      "note": "对自身写作策略的明确表述"
+    }
+  ],
+  "gates": [
+    {
+      "id": "K1",
+      "met": false,
+      "basis": "E4 降级为 C，未达 I；全篇无指出具体错误并说明理由的记录",
+      "search_scope": "全部 12 轮"
+    },
+    {
+      "id": "K2",
+      "met": true,
+      "basis": "四色桶与食堂门口混投的观察，AI 不可能从题目推知",
+      "search_scope": "全部 12 轮"
+    },
+    {
+      "id": "K3",
+      "met": false,
+      "basis": "E5 存疑，按方案不计入门槛判定；其余无明确取舍理由",
+      "search_scope": "全部 12 轮"
+    },
+    {
+      "id": "K4",
+      "met": true,
+      "basis": "E6 说明了自己的中文提纲策略及其理由",
+      "search_scope": "全部 12 轮"
+    }
+  ],
+  "longitudinal": {
+    "available": true,
+    "baseline": "本人前三次作业中位数",
+    "items": [
+      {
+        "metric": "加权归属率",
+        "baseline": "12.5%",
+        "current": "34.2%",
+        "delta": "↑ 21.7 个百分点"
+      },
+      {
+        "metric": "校验深度",
+        "baseline": "C",
+        "current": "C",
+        "delta": "持平"
+      }
+    ]
+  },
+  "conclusion": "文本以 AI 生成为主，学生在素材与写作策略上有明确判断，但没有形成可复核的纠错；取舍环节证据不足，标存疑。",
+  "uncertainty": {
+    "traceability": "第 6 段（数据表说明，40 字）来源在对话外，已移出分母，可溯源覆盖 87%。",
+    "judgement": "E5 处于 A 与 C 之间，并列两种读法后标存疑，未计入 K3。",
+    "input_completeness": "记录完整，12 轮，含时间戳。",
+    "review": "已复核（2026-11-21），抽查 3 条环节判定与 1 条降级判定，均有原话。"
+  },
+  "supplementary": [
+    "第 3 段为中文口述、AI 译为英文，按第 3 档计 25%；该生在第 9 轮自行重写结尾段，显示出一定的目标语产出能力。"
+  ],
+  "disputes": []
+}

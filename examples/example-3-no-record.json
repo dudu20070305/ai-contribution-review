@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "rule_version": "1.0",
+  "meta": {
+    "student_label": "学生C",
+    "assignment_title": "My Winter Holiday",
+    "date": "2026-11-20",
+    "session_id": "sess-20261120-0003",
+    "target_language": "英语",
+    "teaching_objective": "初二英语记叙文写作，含目标语产出",
+    "target_language_production_is_objective": true,
+    "task_type": "写作",
+    "model": "未记录",
+    "record_completeness": "partial",
+    "review_status": "preliminary",
+    "report_mode": "no_record"
+  },
+  "attribution": {
+    "paragraphs": []
+  },
+  "stages": [
+    {
+      "id": "E1",
+      "engaged": false,
+      "initial_grade": null,
+      "final_grade": "未涉及",
+      "evidence_type": null,
+      "quote": "",
+      "turn": null,
+      "downgrade_reason": null,
+      "note": "无过程记录"
+    },
+    {
+      "id": "E2",
+      "engaged": false,
+      "initial_grade": null,
+      "final_grade": "未涉及",
+      "evidence_type": null,
+      "quote": "",
+      "turn": null,
+      "downgrade_reason": null,
+      "note": "无过程记录"
+    },
+    {
+      "id": "E3",
+      "engaged": false,
+      "initial_grade": null,
+      "final_grade": "未涉及",
+      "evidence_type": null,
+      "quote": "",
+      "turn": null,
+      "downgrade_reason": null,
+      "note": "无过程记录"
+    },
+    {
+      "id": "E4",
+      "engaged": false,
+      "initial_grade": null,
+      "final_grade": "未涉及",
+      "evidence_type": null,
+      "quote": "",
+      "turn": null,
+      "downgrade_reason": null,
+      "note": "无过程记录"
+    },
+    {
+      "id": "E5",
+      "engaged": false,
+      "initial_grade": null,
+      "final_grade": "未涉及",
+      "evidence_type": null,
+      "quote": "",
+      "turn": null,
+      "downgrade_reason": null,
+      "note": "无过程记录"
+    },
+    {
+      "id": "E6",
+      "engaged": false,
+      "initial_grade": null,
+      "final_grade": "未涉及",
+      "evidence_type": null,
+      "quote": "",
+      "turn": null,
+      "downgrade_reason": null,
+      "note": "无过程记录"
+    }
+  ],
+  "gates": [
+    {
+      "id": "K1",
+      "met": null,
+      "basis": "",
+      "search_scope": "过程记录缺失，未检索"
+    },
+    {
+      "id": "K2",
+      "met": null,
+      "basis": "",
+      "search_scope": "过程记录缺失，未检索"
+    },
+    {
+      "id": "K3",
+      "met": null,
+      "basis": "",
+      "search_scope": "过程记录缺失，未检索"
+    },
+    {
+      "id": "K4",
+      "met": null,
+      "basis": "",
+      "search_scope": "过程记录缺失，未检索"
+    }
+  ],
+  "longitudinal": {
+    "available": false,
+    "baseline": "",
+    "items": []
+  },
+  "conclusion": "过程记录缺失，无法评价：本会话只有一轮「帮我看看这篇写得怎么样」，没有生成与修改过程。",
+  "uncertainty": {
+    "traceability": "全部段落无法匹配到本会话内的 AI 输出，分母不可建立。",
+    "judgement": "未作任何等级判定，避免以推测代替证据。",
+    "input_completeness": "记录不完整：仅 1 轮，无时间戳。",
+    "review": "初步判定，未经教师复核。"
+  },
+  "supplementary": [
+    "若该作业确在本会话完成，需补交完整会话记录后重出报告；若在别处完成，本报告不产生任何读数。"
+  ],
+  "disputes": []
+}
