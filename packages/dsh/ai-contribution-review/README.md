@@ -2,7 +2,7 @@
 
 判读学生在 AI 辅助作业中的自主贡献，输出给教师看的一页报告。
 
-本包是 **DeepSeek Harness（dsh）** 的 skill 目录包形态。同一模型的另一种封装（Agent Skills / SKILL.md 通用形态）见 `dist/agent-skills/`。
+本包是 **DeepSeek Harness（dsh）** 的 skill 目录包形态。同一模型的另一种封装（Agent Skills / SKILL.md 通用形态）见仓库内 `packages/agent-skills/`。
 
 ![报告预览](docs/preview-assessed.png)
 

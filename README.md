@@ -34,7 +34,7 @@
 **Agent Skills 版**
 
 ```bash
-git clone https://github.com/<you>/ai-contribution-review.git /tmp/acr
+git clone https://github.com/dudu20070305/ai-contribution-review.git /tmp/acr
 cp -r /tmp/acr/packages/agent-skills/ai-contribution-review ~/.workbuddy/skills/
 ```
 
